@@ -10,9 +10,9 @@ Maven
 </repositories>
 
 <dependency>
-	<groupId>com.github.SashaSemenishchev</groupId>
-    <artifactId>RandomAnimalAPI</artifactId>
-    <version>1.0</version>
+    <groupId>com.github.SashaSemenishchev</groupId>
+    <artifactId>RandomImageAPI</artifactId>
+    <version>1.9.0</version>
 </dependency>
 ```
 
@@ -25,7 +25,7 @@ allprojects {
   }
 }
 dependencies {
-	implementation 'com.github.SashaSemenishchev:RandomAnimalAPI:1.0'
+	implementation 'com.github.SashaSemenishchev:RandomAnimalAPI:1.9.0'
 }
 ```
 
@@ -33,15 +33,21 @@ dependencies {
 how to use this api
 
 ```java
-RandomAnimal.getRandomAnimalImage(AnimalType type);
+RandomImage.getRandomAnimalImage(AnimalType type);
 //this may return url of random image as String
 ```
 for example
 
 ```java
-RandomAnimal.getRandomAnimalImage(AnimalType.CAT);
+RandomImage.getRandomAnimalImage(AnimalType.CAT);
 ```
 returns url as String of random cat image
+
+if you want to get random image from custom request, you can use
+```java
+RandomImage.getRandomImageFromUserRequest(String searchData);
+```
+returns random image from your request
 
 ```java
 // AnimalType
