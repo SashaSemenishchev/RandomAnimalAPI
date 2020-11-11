@@ -40,6 +40,12 @@ public class RandomAnimal {
         return links.get(random.nextInt(links.size() - 1));
     }
 
+    public static String getRandomImageFromUserRequest(String request){
+        List<String> links = getSearch(request);
+
+        return links.get(random.nextInt(links.size() - 1));
+    }
+
     public static List<String> getSearch(String search){
         List<String> resultUrls = new ArrayList<>();
 
