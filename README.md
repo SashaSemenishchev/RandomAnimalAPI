@@ -12,7 +12,7 @@ Maven
 <dependency>
     <groupId>com.github.SashaSemenishchev</groupId>
     <artifactId>RandomImageAPI</artifactId>
-    <version>1.0</version>
+    <version>1.9.0</version>
 </dependency>
 ```
 
@@ -25,7 +25,7 @@ allprojects {
   }
 }
 dependencies {
-	implementation 'com.github.SashaSemenishchev:RandomAnimalAPI:1.0'
+	implementation 'com.github.SashaSemenishchev:RandomAnimalAPI:1.9.0'
 }
 ```
 
