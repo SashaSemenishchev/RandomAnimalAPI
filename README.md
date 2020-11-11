@@ -17,13 +17,13 @@ Maven
 ```
 
 And gradle
-```kotlin
+
+```
 allprojects {
   repositories {
     maven { url 'https://jitpack.io' }
   }
 }
-
 dependencies {
 	implementation 'com.github.SashaSemenishchev:RandomAnimalAPI:1.0'
 }
@@ -37,6 +37,7 @@ RandomAnimal.getRandomAnimalImage(AnimalType type);
 //this may return url of random image as String
 ```
 for example
+
 ```java
 RandomAnimal.getRandomAnimalImage(AnimalType.CAT);
 ```
