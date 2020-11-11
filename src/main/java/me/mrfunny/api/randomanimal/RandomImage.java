@@ -12,8 +12,6 @@ import java.util.Random;
 
 public class RandomImage {
 
-    public static final String google = "https://www.google.com/search?tbm=isch&q=";
-    public static final String charset = "UTF-8";
     public static final String userAgent = "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36";
 
     private static final Random random = new Random();
