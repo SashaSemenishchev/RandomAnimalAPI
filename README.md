@@ -1,5 +1,9 @@
 # RandomAnimalAPI
 
+
+[![](https://jitpack.io/v/SashaSemenishchev/RandomImageAPI.svg)](https://jitpack.io/#SashaSemenishchev/RandomImageAPI)
+
+
 Maven
 ```xml
 <repositories>
@@ -8,8 +12,6 @@ Maven
 		<url>https://jitpack.io</url>
 	</repository>
 </repositories>
-
-[![](https://jitpack.io/v/SashaSemenishchev/RandomImageAPI.svg)](https://jitpack.io/#SashaSemenishchev/RandomImageAPI)
 
 <dependency>
     <groupId>com.github.SashaSemenishchev</groupId>
