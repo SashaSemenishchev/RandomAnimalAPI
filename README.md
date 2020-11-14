@@ -9,14 +9,16 @@ Maven
 	</repository>
 </repositories>
 
+[![](https://jitpack.io/v/SashaSemenishchev/RandomImageAPI.svg)](https://jitpack.io/#SashaSemenishchev/RandomImageAPI)
+
 <dependency>
     <groupId>com.github.SashaSemenishchev</groupId>
     <artifactId>RandomImageAPI</artifactId>
-    <version>1.9.0</version>
+    <version>VERSION</version>
 </dependency>
 ```
 
-And gradle
+or gradle
 
 ```
 allprojects {
@@ -25,7 +27,7 @@ allprojects {
   }
 }
 dependencies {
-	implementation 'com.github.SashaSemenishchev:RandomAnimalAPI:1.9.0'
+	implementation 'com.github.SashaSemenishchev:RandomAnimalAPI:VERSION'
 }
 ```
 
